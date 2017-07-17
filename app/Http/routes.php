@@ -47,4 +47,10 @@ Route::group(['middleware' => ['admin.login'], 'prefix' => 'admin', 'namespace' 
     Route::post('config/changeorder', 'ConfigController@changeOrder');
     Route::get('config/putfile', 'ConfigController@putFile');
     Route::resource('config', 'ConfigController');
+    
 });
+
+Route::any("admin/weichat", "Admin\WeichatController@index");
+//验证接口
+Route::any("admin/weixin/api", "Admin\WeichatController@api");
+
