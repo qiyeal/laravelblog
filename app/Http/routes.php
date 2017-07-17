@@ -47,4 +47,8 @@ Route::group(['middleware' => ['admin.login'], 'prefix' => 'admin', 'namespace' 
     Route::post('config/changeorder', 'ConfigController@changeOrder');
     Route::get('config/putfile', 'ConfigController@putFile');
     Route::resource('config', 'ConfigController');
+
+
+    Route::get("weichat", "WeichatController@index");
+    Route::get("valid", "WeichatController@validEchostr");
 });
