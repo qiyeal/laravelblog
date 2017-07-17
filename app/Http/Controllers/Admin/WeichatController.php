@@ -11,6 +11,7 @@ class WeichatController extends Controller
 {
     public $appID = "wx73536f1e0f6e29e1";
     public $appSecret = "563bd03d998003ff58795878bf187655";
+    public $token = "weixin";
 
     public function index()
     {
