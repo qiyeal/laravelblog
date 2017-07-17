@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="{{URL::asset('admin/style/css/ch-ui.admin.css')}}">
-    <link rel="stylesheet" href="{{URL::asset('admin/style/font/css/font-awesome.min.css')}}">
+    <link rel="stylesheet" href="{{URL::asset('admin1/style/css/ch-ui.admin.css')}}">
+    <link rel="stylesheet" href="{{URL::asset('admin1/style/font/css/font-awesome.min.css')}}">
 </head>
 <body style="background:#F3F3F4;">
 <div class="login_box">
@@ -35,7 +35,7 @@
             </ul>
         </form>
         <p><a href="{{url('/')}}">返回首页</a> &copy; 2017 Powered by <a href="http://www.jrhuei.com"
-                                                                     target="_blank">丶林晓</a>
+                                                                     target="_blank">丶七夜</a>
         </p>
     </div>
 </div>
