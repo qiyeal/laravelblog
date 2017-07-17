@@ -35,7 +35,7 @@
             </ul>
         </form>
         <p><a href="{{url('/')}}">返回首页</a> &copy; 2017 Powered by <a href="http://www.jrhuei.com"
-                                                                     target="_blank">丶林晓</a>
+                                                                     target="_blank">丶七夜</a>
         </p>
     </div>
 </div>
