@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/app/Http/routes.php" line="56" />
+    <bookmark url="file://$PROJECT_DIR$/app/Http/routes.php" line="75" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c3cc222-d152-4955-afc9-c330d3cebeed" name="Default" comment="" />
+    <list default="true" id="0c3cc222-d152-4955-afc9-c330d3cebeed" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/admin/weichat/add_text.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/admin/weichat/edit_text.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/admin/weichat/picinfo/add_img.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/admin/weichat/picinfo/img.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/layouts/weixin.blade.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/views/admin/weichat/index.blade.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/index.blade.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/WeichatController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/Weixin/WeichatController.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/views/admin/weichat/text.blade.html" afterPath="$PROJECT_DIR$/resources/views/admin/weichat/text.blade.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,31 +39,8 @@
       <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="764">
-              <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-              <folding>
-                <marker date="1500302192666" expanded="true" signature="757:1773" ph="..." />
-                <marker date="1500302192666" expanded="true" signature="850:1773" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeichatController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/WeichatController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/admin/weichat/index.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1120">
-              <caret line="40" column="32" lean-forward="false" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+            <state relative-caret-position="474">
+              <caret line="64" column="34" lean-forward="false" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -60,8 +49,28 @@
       <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="36" column="112" lean-forward="false" selection-start-line="36" selection-start-column="112" selection-end-line="36" selection-end-column="112" />
+            <state relative-caret-position="364">
+              <caret line="37" column="50" lean-forward="false" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeichatController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/Weixin/WeichatController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-532">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="img.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/weichat/picinfo/img.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1008">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -102,15 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Model/Category.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/pass.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/category/edit.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Model/Article.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/ArticleController.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/article/index.blade.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2017_06_12_105800_create_links_table.php" />
         <option value="$PROJECT_DIR$/database/seeds/LinksTableSeeder.php" />
         <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/app/Http/Model/Links.php" />
@@ -150,9 +150,18 @@
         <option value="$PROJECT_DIR$/resources/views/home/list.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/Weichat.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/weichat/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/weixin.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/weichat/add_text.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/WeichatController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/Weixin/WeichatController.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/weichat/edit_text.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/Weixin/WeixinInfoController.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/weichat/text.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/Weixin/WeixinTextController.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/WeichatController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/Weixin/WeixinPicController.php.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/Weixin/WeixinPicController.php" />
       </list>
     </option>
   </component>
@@ -277,6 +286,36 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="weichat" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="picinfo" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravelblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravelblog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -358,6 +397,36 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravelblog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravelblog" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Weixin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -376,11 +445,11 @@
       <recent name="D:\phpStudy\WWW\laravelBlog\app\Http\Model" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\wamp\www\laravelblog\resources\views\admin\weichat\picinfo" />
+      <recent name="D:\wamp\www\laravelblog\app\Http\Controllers\Admin\Weixin" />
       <recent name="D:\wamp\www\laravelblog\resources\views\admin\weichat" />
+      <recent name="D:\wamp\www\laravelblog\public" />
       <recent name="D:\phpStudy\WWW\laravelBlog\app\Http\Controllers\Admin" />
-      <recent name="D:\phpStudy\WWW\laravelBlog\database" />
-      <recent name="D:\phpStudy\WWW\laravelBlog\resources\views\admin\category" />
-      <recent name="D:\phpStudy\WWW\laravelBlog\app\Http\Model" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -499,27 +568,29 @@
       <workItem from="1499909860189" duration="90000" />
       <workItem from="1499922842233" duration="674000" />
       <workItem from="1500291046877" duration="2882000" />
-      <workItem from="1500301640737" duration="618000" />
+      <workItem from="1500301640737" duration="3429000" />
+      <workItem from="1500308311634" duration="4742000" />
+      <workItem from="1500338013493" duration="2772000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142801000" />
+    <option name="totallyTimeSpent" value="153126000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1860" height="1098" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2099664" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2362822" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27974278" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -544,13 +615,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/composer.json" />
-    <entry file="file://$PROJECT_DIR$/app/Libs/code/Code.class.php" />
-    <entry file="file://$PROJECT_DIR$/app/Http/Model/Navs.php" />
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/LinksController.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/navs/edit.blade.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/navs/add.blade.php" />
-    <entry file="file://$PROJECT_DIR$/app/Http/Model/Config.php" />
     <entry file="file://$PROJECT_DIR$/resources/views/admin/category/index.blade.php" />
     <entry file="file://$PROJECT_DIR$/resources/views/admin/navs/index.blade.php" />
     <entry file="file://$PROJECT_DIR$/resources/views/admin/links/index.blade.php" />
@@ -605,13 +669,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/article/add.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/CommonController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -640,13 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/admin.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/info.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -670,37 +720,94 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/Weichat.php" />
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/admin.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="36" column="112" lean-forward="false" selection-start-line="36" selection-start-column="112" selection-end-line="36" selection-end-column="112" />
+        <state relative-caret-position="308">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/article/add.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2128">
+          <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/weichat/add_text.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="27" column="36" lean-forward="false" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/weixin.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1820">
+          <caret line="25" column="39" lean-forward="false" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/weichat/index.blade.php" />
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/weichat/edit_text.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132">
+          <caret line="28" column="79" lean-forward="false" selection-start-line="28" selection-start-column="79" selection-end-line="28" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/weichat/text.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="44" column="154" lean-forward="false" selection-start-line="44" selection-start-column="154" selection-end-line="44" selection-end-column="154" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/weichat/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/Weixin/WeixinTextController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1120">
-          <caret line="40" column="32" lean-forward="false" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+        <state relative-caret-position="1568">
+          <caret line="59" column="13" lean-forward="false" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="764">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding>
-            <marker date="1500302192666" expanded="true" signature="757:1773" ph="..." />
-            <marker date="1500302192666" expanded="true" signature="850:1773" ph="..." />
-          </folding>
+        <state relative-caret-position="474">
+          <caret line="64" column="34" lean-forward="false" selection-start-line="64" selection-start-column="34" selection-end-line="64" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/WeichatController.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/Weixin/WeixinPicController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="15" column="29" lean-forward="true" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/weichat/picinfo/img.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1008">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="37" column="50" lean-forward="false" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/Weixin/WeichatController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-532">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="34" />
           <folding />
         </state>
       </provider>

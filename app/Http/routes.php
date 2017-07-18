@@ -50,7 +50,26 @@ Route::group(['middleware' => ['admin.login'], 'prefix' => 'admin', 'namespace' 
     
 });
 
-Route::any("admin/weichat", "Admin\WeichatController@index");
+//文本消息
+Route::any("admin/text", "Admin\Weixin\WeixinTextController@index");
+//添加文本消息
+Route::any("admin/add_text", "Admin\Weixin\WeixinTextController@addText");
+//编辑文本消息
+Route::any("weixin/text/edit/{text_id?}", "Admin\Weixin\WeixinTextController@edit");
+//删除文本消息
+Route::get("weixin/text/del/{text_id}", "Admin\Weixin\WeixinTextController@del");
+
+//图文消息
+Route::any("weixin/pic", "Admin\Weixin\WeixinPicController@index");
+//添加图文消息
+Route::any("weixin/add_pic", "Admin\Weixin\WeixinPicController@addPic");
+//编辑图文消息
+Route::any("weixin/pic/edit/{pic_id?}", "Admin\Weixin\WeixinPicController@edit");
+//删除图文消息
+Route::get("weixin/pic/del/{pic_id}", "Admin\Weixin\WeixinPicController@del");
+
+
+
 //验证接口
-Route::any("admin/weixin/api", "Admin\WeichatController@api");
+Route::any("admin/weixin/api", "Admin\Weixin\WeichatController@api");
 
